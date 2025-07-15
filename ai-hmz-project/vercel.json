@@ -3,5 +3,11 @@
     "api/humanize.php": {
       "runtime": "vercel-php@0.7.0"
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/api/humanize.php",
+      "destination": "/api/humanize.php"
+    }
+  ]
 }
